@@ -9,4 +9,4 @@ Dibangun dengan bantuan Framework Codeigniter 3.1.11.
 
 Halaman Landing:
 
-![](landing.gif)
+![Landing Page](landing.gif)
