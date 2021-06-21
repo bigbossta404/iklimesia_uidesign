@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    z-index: 1;
+}
+
+.navigasi {
+    display: inline-block !important;
+    width: 100%;
+    z-index: 9999;
+    position: fixed !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    padding: 15px;
+}
+
+.iden {
+    margin-right: 6%;
+    margin-top: 1%;
+}
+
+.btndaftar {
+    filter: url('#goo');
+    box-shadow: 0px 3px 7px #101010;
+}
+
+.daftar {
+    /* display: inline-block; */
+    text-align: center;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    background-color: rgb(201, 0, 0) !important;
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.daftar:before,
+.daftar:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background-color: rgb(201, 0, 0) !important;
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.daftar:before {
+    top: -25%;
+    left: 10%;
+}
+
+.daftar:after {
+    bottom: -25%;
+    right: 10%;
+}
+
+.daftar:hover:before,
+.daftar:hover:after {
+    transform: none;
+}
+
+
+/* Demo styles */
+
+.login {
+    color: #ffffff !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    border: none;
+}
+
+.custom-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.login span {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.login:before,
+.login:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.login:before {
+    height: 0%;
+    width: 2px;
+}
+
+.login:after {
+    width: 0%;
+    height: 2px;
+}
+
+.login:hover:before {
+    height: 100%;
+}
+
+.login:hover:after {
+    width: 100%;
+}
+
+.login span:before,
+.login span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.login span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.login span:after {
+    width: 0%;
+    height: 2px;
+}
+
+.login span:hover:before {
+    height: 100%;
+}
+
+.login span:hover:after {
+    width: 100%;
+}
+
+.vignette,
+.vignette-box {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0);
+}
+
+.vignette2,
+.vignette-box2 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0);
+}
+
+.vignette3,
+.vignette-box3 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0);
+}
+
+.swiper-container {
+    height: 100vh;
+}
+
+.main-container {
+    background: url('../img/parallax-layer/layerbg.png');
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.main-container2 {
+    background: url('../img/parallax-layer/slide_2/layerbg2.png');
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.main-container3 {
+    background: url('../img/parallax-layer/slide_3/layer3bg.png');
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.layerimg {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.layerimg2 {
+    height: 100%;
+    width: 100%;
+    margin-left: -1%;
+}
+
+
+/* .scene3 {
+    margin-top: 7% !important;
+} */
+
+.layerimg3 {
+    height: 98%;
+    width: 80%;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+}
+
+.rumput {
+    height: 100%;
+    width: 110%;
+    transform: translate(0px, -90px);
+    margin-left: -10px;
+}
+
+.info {
+    position: fixed;
+    z-index: 100;
+    top: 30%;
+    left: 12%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.info2 {
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-right: 6%;
+    margin-top: -50px;
+}
+
+.info3 {
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-right: 6%;
+    margin-top: -40px;
+}
+
+.info2 h1 {
+    font-size: 40px !important;
+    text-align: right;
+}
+
+.info3 h1 {
+    font-size: 40px !important;
+    text-align: right;
+}
+
+.info3 p {
+    text-align: right !important;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff;
+    font-size: 80px !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+    margin-bottom: -5px !important;
+    font-size: 20px !important;
+    margin-left: 3px !important;
+}
+
+.btn2 {
+    margin-top: 15%;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff;
+    font-weight: 700 !important;
+    display: inline-flex;
+    margin-left: 3px !important;
+}
+
+.btnslide2 {
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ffffff;
+    font-weight: 700 !important;
+    display: inline-flex;
+    float: right;
+}
+
+.tour {
+    padding-right: 15px !important;
+    font-size: 20px !important;
+}
+
+.gabung {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: rgb(201, 0, 0) !important;
+    margin-right: 15px !important;
+    padding-left: 20px !important;
+    font-size: 20px !important;
+    padding-right: 20px !important;
+}
+
+.login {
+    float: right;
+}
+
+.daftar {
+    margin-left: 15px;
+    float: right;
+}
+
+.gabung span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.gabung span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.gabung:hover span {
+    padding-right: 25px;
+    color: #ffffff !important;
+}
+
+.gabung:hover span:after {
+    color: #ffffff !important;
+    opacity: 1;
+    right: 0;
+}
+
+.gabung2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.gabung2 span:after {
+    content: 'Kembali';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.gabung2:hover span {
+    padding-right: 25px;
+    color: transparent !important;
+}
+
+.gabung2:hover span:after {
+    color: #000000 !important;
+    opacity: 1;
+    right: 0;
+}
