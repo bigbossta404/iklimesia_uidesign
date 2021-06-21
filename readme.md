@@ -9,4 +9,4 @@ Dibangun dengan bantuan Framework Codeigniter 3.1.11.
 
 Halaman Landing:
 
-![Landing Page](dashboard_3_misi.png)
+![](dashboard_3_misi.png)
